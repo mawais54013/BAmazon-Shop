@@ -2,7 +2,7 @@
 
 This program allows the user to shop just like amazon while also updating the mysql database with the materials bought. In addition, this program includes functions for managers and supervisors that user can try to see the entire business process of sales and inventory updates. 
 
-[BAmazon-Shop](file:///Users/muhammadawais/Desktop/Express-Shop/index.html)
+[BAmazon-Shop](https://mawais54013.github.io/BAmazon-Shop/)
 
 [Portfolio](https://mawais54013.github.io/New-Portfolio/)
 
