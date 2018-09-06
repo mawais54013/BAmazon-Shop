@@ -1,0 +1,86 @@
+html,body
+{
+    /* height: 100%; */
+    background-image: url("images/img1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+span
+{
+    font-family: 'Audiowide', cursive;
+    color: rgb(192,192,192);
+}
+
+#area1
+{
+    background-image: url("images/img3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#area2
+{
+    background-image: url("images/img4.jpg");
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#area3
+{
+    background-image: url("images/img5.jpg");
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#area4
+{
+    background-image: url("images/img6.gif");
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#area5
+{
+    background-color: black;
+}
+
+#area6
+{
+    background-image: url("images/img8.jpg");
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#area7
+{
+    background-image: url("images/img9.jpg");
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#text1
+{
+    color: white;
+}
+#text2
+{
+    color: white;
+}
+#text3
+{
+    color: white;
+}
+#text4
+{
+    color: white;
+}
+#img7:hover
+{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(2); 
+}

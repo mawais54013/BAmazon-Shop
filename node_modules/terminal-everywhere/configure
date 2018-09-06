@@ -1,0 +1,18 @@
+#!/usr/bin/coffee
+
+exec = require('child_process').exec
+
+# less prepare
+fs = require 'fs'
+less = require 'less'
+
+styles = fs.readFileSync './lib/terminal.less', encoding: 'utf-8'
+css = less.render styles, compress: true, (e, css) ->
+  css = 'module.exports = """\n' + css + '\n"""'
+  fs.writeFileSync './lib/terminal.css.coffee', css, encoding: 'utf-8'
+
+  # coffee compile
+  exec './node_modules/.bin/coffee -c --bare index.coffee lib/*.coffee'
+  
+  # build dist files
+  exec './node_modules/.bin/browserify --standalone Terminal index.js -d --outfile dist/terminal.js'
